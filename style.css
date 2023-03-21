@@ -1,0 +1,121 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+
+.header{
+    margin: 20px auto;
+    
+    /* height: 400px; */
+    width: 90%;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+.header-up{
+    display: flex;
+    /* justify-content: center;
+    flex-wrap: wrap; */
+    border-radius: 10px;
+    border: 0.5px solid black;
+    
+}
+.meeting-head{
+    font-size: 20px;
+    font-weight: 600;
+}
+.header-left{
+    background-color: rgb(5, 82, 64);
+    width: 50%;
+    padding: 12px;
+    
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 8px;
+    /* border: 2px solid black; */
+   
+    color: white;
+}
+.header-right{
+    margin-left: 20px;
+    width: 50%;
+   padding: 12px;
+    /* border: 2px solid black; */
+}
+.members{
+  display: flex;
+ 
+  justify-content: space-between;
+}
+.nav-bar{
+    width: auto;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.details-view{
+   width: 100px;
+   height: 24px;
+    border-radius: 40px;
+    margin: 13px;
+    cursor: pointer;
+    /* width: 100px;
+    height: 20px; */
+}
+.hr{
+    margin-top: -10px;
+    border: 1px solid;
+}
+.header-down{
+    margin: 10px;
+    
+}
+button{
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.comment{
+    width: 290px;
+    height: 100px;
+}
+i{
+   
+    font-size: 30px;
+}
+.fa-star{
+    color: rgb(219, 219, 94);
+}
+.fa-video{
+    font-size: 12px;
+    margin-left: 40px;
+    color: blue;
+    
+}
+.resourse{
+    display: flex;
+
+}
+
+.pptx{
+    margin: 10px;
+    border: 0.3px solid;
+    width: 150px;
+    height: 35px;
+    padding: 5px;
+}
+.fa-download{
+    font-size: 13px;
+    color: blue;
+}
+.btn{
+    width: 105px;
+    height: 40px;
+}
+.btn-submit{
+    width: 105px;
+    height: 40px;
+    background-color: rgb(49, 49, 239);
+    border-radius: 4px;
+    border: 1px;
+}
